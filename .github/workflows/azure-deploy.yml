@@ -24,6 +24,11 @@ jobs:
       with:
         node-version: ${{ env.NODE_VERSION }}
 
+    - name: 'Login to Azure'
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
     # Build Frontend
     - name: 'Install Frontend Dependencies'
       run: |
@@ -49,10 +54,13 @@ jobs:
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_BACKEND }}
         package: './backend'
 
-    # Deploy Frontend to Azure
+    # Deploy Frontend to Azure using Azure CLI
+    - name: 'Create Frontend Deployment Package'
+      run: |
+        cd frontend/dist
+        zip -r ../../frontend-deployment.zip .
+        cd ../..
+
     - name: 'Deploy Frontend to Azure Web App'
-      uses: azure/webapps-deploy@v2
-      with:
-        app-name: ${{ env.AZURE_WEBAPP_NAME_FRONTEND }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_FRONTEND }}
-        package: './frontend/dist'
+      run: |
+        az webapp deployment source config-zip --resource-group dine-tech-rg --name ${{ env.AZURE_WEBAPP_NAME_FRONTEND }} --src frontend-deployment.zip
