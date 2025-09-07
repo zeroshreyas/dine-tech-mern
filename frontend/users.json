@@ -1,0 +1,314 @@
+[
+  {
+    "id": 1,
+    "employeeId": "EMP001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@company.com",
+    "password": "password123",
+    "department": "Engineering",
+    "position": "Senior Software Engineer",
+    "phoneNumber": "+1-555-0123",
+    "hireDate": "2022-01-15",
+    "salary": 85000,
+    "isActive": true,
+    "manager": "Sarah Johnson",
+    "location": "New York, NY",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 150.00,
+      "currentSpent": 45.50,
+      "lastUpdated": "2024-01-15",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 150.00, "spent": 45.50 },
+        { "month": "2023-12", "limit": 120.00, "spent": 95.25 },
+        { "month": "2023-11", "limit": 120.00, "spent": 87.50 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567001",
+        "productName": "Coffee Beans",
+        "category": "Beverages",
+        "price": 12.99,
+        "quantity": 1,
+        "unit": "bag",
+        "purchaseDate": "2024-01-10T14:30:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567002",
+        "productName": "Greek Yogurt",
+        "category": "Dairy",
+        "price": 3.50,
+        "quantity": 2,
+        "unit": "cups",
+        "purchaseDate": "2024-01-08T10:15:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567003",
+        "productName": "Granola Bar",
+        "category": "Snacks",
+        "price": 8.75,
+        "quantity": 5,
+        "unit": "bars",
+        "purchaseDate": "2024-01-05T16:45:00.000Z",
+        "month": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "employeeId": "EMP002",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@company.com",
+    "password": "password123",
+    "department": "Marketing",
+    "position": "Marketing Manager",
+    "phoneNumber": "+1-555-0124",
+    "hireDate": "2021-03-10",
+    "salary": 75000,
+    "isActive": true,
+    "manager": "Michael Brown",
+    "location": "Los Angeles, CA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 120.00,
+      "currentSpent": 67.25,
+      "lastUpdated": "2024-01-12",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 120.00, "spent": 67.25 },
+        { "month": "2023-12", "limit": 100.00, "spent": 78.90 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567004",
+        "productName": "Sparkling Water",
+        "category": "Beverages",
+        "price": 15.50,
+        "quantity": 1,
+        "unit": "case",
+        "purchaseDate": "2024-01-12T11:20:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567005",
+        "productName": "Mixed Nuts",
+        "category": "Snacks",
+        "price": 18.75,
+        "quantity": 1,
+        "unit": "container",
+        "purchaseDate": "2024-01-09T14:30:00.000Z",
+        "month": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "employeeId": "EMP003",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@company.com",
+    "password": "password123",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "phoneNumber": "+1-555-0125",
+    "hireDate": "2020-07-20",
+    "salary": 70000,
+    "isActive": true,
+    "manager": "David Wilson",
+    "location": "Chicago, IL",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 100.00,
+      "currentSpent": 23.45,
+      "lastUpdated": "2024-01-08",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 100.00, "spent": 23.45 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567006",
+        "productName": "Protein Bar",
+        "category": "Snacks",
+        "price": 11.95,
+        "quantity": 1,
+        "unit": "box",
+        "purchaseDate": "2024-01-08T09:15:00.000Z",
+        "month": "2024-01"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "employeeId": "VND001",
+    "firstName": "Alice",
+    "lastName": "Vendor",
+    "email": "alice.vendor@company.com",
+    "password": "vendor123",
+    "department": "Operations",
+    "position": "Pantry Vendor",
+    "phoneNumber": "+1-555-0200",
+    "hireDate": "2023-05-01",
+    "salary": 45000,
+    "isActive": true,
+    "manager": "Operations Manager",
+    "location": "New York, NY",
+    "userType": "vendor",
+    "pantryBudget": {
+      "monthlyLimit": 0.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 5,
+    "employeeId": "VND002",
+    "firstName": "Bob",
+    "lastName": "Store",
+    "email": "bob.store@company.com",
+    "password": "vendor123",
+    "department": "Operations",
+    "position": "Pantry Manager",
+    "phoneNumber": "+1-555-0201",
+    "hireDate": "2023-03-15",
+    "salary": 50000,
+    "isActive": true,
+    "manager": "Operations Manager",
+    "location": "Los Angeles, CA",
+    "userType": "vendor",
+    "pantryBudget": {
+      "monthlyLimit": 0.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 6,
+    "employeeId": "EMP004",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@company.com",
+    "password": "password123",
+    "department": "Human Resources",
+    "position": "HR Specialist",
+    "phoneNumber": "+1-555-0126",
+    "hireDate": "2021-09-01",
+    "salary": 65000,
+    "isActive": true,
+    "manager": "David Wilson",
+    "location": "Austin, TX",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 110.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 7,
+    "employeeId": "EMP005",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@company.com",
+    "password": "password123",
+    "department": "Finance",
+    "position": "Finance Director",
+    "phoneNumber": "+1-555-0127",
+    "hireDate": "2019-02-15",
+    "salary": 95000,
+    "isActive": true,
+    "manager": "CEO",
+    "location": "New York, NY",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 200.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 8,
+    "employeeId": "EMP006",
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "email": "lisa.anderson@company.com",
+    "password": "password123",
+    "department": "Design",
+    "position": "UI/UX Designer",
+    "phoneNumber": "+1-555-0128",
+    "hireDate": "2022-06-01",
+    "salary": 72000,
+    "isActive": true,
+    "manager": "Sarah Johnson",
+    "location": "San Francisco, CA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 130.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 9,
+    "employeeId": "EMP007",
+    "firstName": "James",
+    "lastName": "Taylor",
+    "email": "james.taylor@company.com",
+    "password": "password123",
+    "department": "Engineering",
+    "position": "DevOps Engineer",
+    "phoneNumber": "+1-555-0129",
+    "hireDate": "2021-11-15",
+    "salary": 80000,
+    "isActive": true,
+    "manager": "John Smith",
+    "location": "Seattle, WA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 140.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 10,
+    "employeeId": "EMP008",
+    "firstName": "Amanda",
+    "lastName": "Martinez",
+    "email": "amanda.martinez@company.com",
+    "password": "password123",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "phoneNumber": "+1-555-0130",
+    "hireDate": "2023-01-10",
+    "salary": 55000,
+    "isActive": true,
+    "manager": "Michael Brown",
+    "location": "Miami, FL",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 90.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  }
+] 

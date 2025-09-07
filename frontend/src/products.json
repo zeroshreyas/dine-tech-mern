@@ -1,0 +1,182 @@
+[
+  {
+    "id": "prod001",
+    "name": "Organic Apples",
+    "category": "Fruits",
+    "price": 4.99,
+    "unit": "lbs",
+    "description": "Fresh organic red apples",
+    "inStock": true,
+    "image": "🍎"
+  },
+  {
+    "id": "prod002",
+    "name": "Greek Yogurt",
+    "category": "Dairy",
+    "price": 1.75,
+    "unit": "cup",
+    "description": "Plain Greek yogurt, high protein",
+    "inStock": true,
+    "image": "🥛"
+  },
+  {
+    "id": "prod003",
+    "name": "Whole Grain Bread",
+    "category": "Bakery",
+    "price": 3.25,
+    "unit": "loaf",
+    "description": "100% whole grain bread",
+    "inStock": true,
+    "image": "🍞"
+  },
+  {
+    "id": "prod004",
+    "name": "Coffee Beans",
+    "category": "Beverages",
+    "price": 12.99,
+    "unit": "bag",
+    "description": "Premium dark roast coffee beans",
+    "inStock": true,
+    "image": "☕"
+  },
+  {
+    "id": "prod005",
+    "name": "Mixed Nuts",
+    "category": "Snacks",
+    "price": 8.75,
+    "unit": "pack",
+    "description": "Assorted mixed nuts",
+    "inStock": true,
+    "image": "🥜"
+  },
+  {
+    "id": "prod006",
+    "name": "Sparkling Water",
+    "category": "Beverages",
+    "price": 0.99,
+    "unit": "bottle",
+    "description": "Natural sparkling water",
+    "inStock": true,
+    "image": "💧"
+  },
+  {
+    "id": "prod007",
+    "name": "Bananas",
+    "category": "Fruits",
+    "price": 2.50,
+    "unit": "lbs",
+    "description": "Fresh yellow bananas",
+    "inStock": true,
+    "image": "🍌"
+  },
+  {
+    "id": "prod008",
+    "name": "Protein Bars",
+    "category": "Snacks",
+    "price": 1.50,
+    "unit": "bar",
+    "description": "Chocolate protein bars",
+    "inStock": true,
+    "image": "🍫"
+  },
+  {
+    "id": "prod009",
+    "name": "Cheese Sticks",
+    "category": "Dairy",
+    "price": 0.75,
+    "unit": "stick",
+    "description": "Mozzarella cheese sticks",
+    "inStock": true,
+    "image": "🧀"
+  },
+  {
+    "id": "prod010",
+    "name": "Green Tea",
+    "category": "Beverages",
+    "price": 7.25,
+    "unit": "box",
+    "description": "Organic green tea bags",
+    "inStock": true,
+    "image": "🍵"
+  },
+  {
+    "id": "prod011",
+    "name": "Avocados",
+    "category": "Fruits",
+    "price": 1.50,
+    "unit": "piece",
+    "description": "Fresh ripe avocados",
+    "inStock": true,
+    "image": "🥑"
+  },
+  {
+    "id": "prod012",
+    "name": "Almond Milk",
+    "category": "Dairy",
+    "price": 4.50,
+    "unit": "carton",
+    "description": "Unsweetened almond milk",
+    "inStock": true,
+    "image": "🥛"
+  },
+  {
+    "id": "prod013",
+    "name": "Energy Bars",
+    "category": "Snacks",
+    "price": 2.25,
+    "unit": "bar",
+    "description": "Natural energy bars",
+    "inStock": true,
+    "image": "⚡"
+  },
+  {
+    "id": "prod014",
+    "name": "Herbal Tea",
+    "category": "Beverages",
+    "price": 8.99,
+    "unit": "box",
+    "description": "Chamomile herbal tea",
+    "inStock": true,
+    "image": "🌿"
+  },
+  {
+    "id": "prod015",
+    "name": "Quinoa Salad",
+    "category": "Ready Meals",
+    "price": 6.50,
+    "unit": "container",
+    "description": "Pre-made quinoa salad",
+    "inStock": true,
+    "image": "🥗"
+  },
+  {
+    "id": "prod016",
+    "name": "Orange Juice",
+    "category": "Beverages",
+    "price": 3.75,
+    "unit": "bottle",
+    "description": "Fresh squeezed orange juice",
+    "inStock": true,
+    "image": "🍊"
+  },
+  {
+    "id": "prod017",
+    "name": "Granola",
+    "category": "Breakfast",
+    "price": 6.99,
+    "unit": "box",
+    "description": "Honey almond granola",
+    "inStock": true,
+    "image": "🥣"
+  },
+  {
+    "id": "prod018",
+    "name": "Fresh Berries",
+    "category": "Fruits",
+    "price": 4.25,
+    "unit": "container",
+    "description": "Mixed fresh berries",
+    "inStock": true,
+    "image": "🫐"
+  }
+] 

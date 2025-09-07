@@ -1,0 +1,504 @@
+[
+  {
+    "id": 1,
+    "employeeId": "EMP001",
+    "firstName": "John",
+    "lastName": "Smith",
+    "email": "john.smith@company.com",
+    "password": "password123",
+    "secretPin": "1234",
+    "department": "Engineering",
+    "position": "Senior Software Engineer",
+    "phoneNumber": "+1-555-0123",
+    "hireDate": "2022-01-15",
+    "salary": 85000,
+    "isActive": true,
+    "manager": "Sarah Johnson",
+    "location": "New York, NY",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 150.00,
+      "currentSpent": 45.50,
+      "lastUpdated": "2024-01-15",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 150.00, "spent": 45.50 },
+        { "month": "2023-12", "limit": 120.00, "spent": 95.25 },
+        { "month": "2023-11", "limit": 120.00, "spent": 87.50 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567001",
+        "productName": "Coffee Beans",
+        "category": "Beverages",
+        "price": 12.99,
+        "quantity": 1,
+        "unit": "bag",
+        "purchaseDate": "2024-01-10T14:30:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567002",
+        "productName": "Greek Yogurt",
+        "category": "Dairy",
+        "price": 3.50,
+        "quantity": 2,
+        "unit": "cups",
+        "purchaseDate": "2024-01-08T10:15:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567003",
+        "productName": "Granola Bar",
+        "category": "Snacks",
+        "price": 8.75,
+        "quantity": 5,
+        "unit": "bars",
+        "purchaseDate": "2024-01-05T16:45:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1707890123001",
+        "productName": "Organic Apples",
+        "category": "Fruits",
+        "price": 4.99,
+        "quantity": 1,
+        "unit": "lbs",
+        "purchaseDate": "2024-02-05T09:15:00.000Z",
+        "month": "2024-02",
+        "vendorName": "Alice Henderson"
+      },
+      {
+        "id": "p1707890123002",
+        "productName": "Whole Grain Bread",
+        "category": "Bakery",
+        "price": 3.25,
+        "quantity": 2,
+        "unit": "loaf",
+        "purchaseDate": "2024-02-08T11:30:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123003",
+        "productName": "Mixed Nuts",
+        "category": "Snacks",
+        "price": 8.75,
+        "quantity": 1,
+        "unit": "pack",
+        "purchaseDate": "2024-02-12T14:45:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123004",
+        "productName": "Sparkling Water",
+        "category": "Beverages",
+        "price": 6.50,
+        "quantity": 3,
+        "unit": "bottles",
+        "purchaseDate": "2024-02-15T16:20:00.000Z",
+        "month": "2024-02",
+        "vendorName": "Alice Henderson"
+      },
+      {
+        "id": "p1707890123005",
+        "productName": "Energy Bar",
+        "category": "Snacks",
+        "price": 2.25,
+        "quantity": 4,
+        "unit": "bars",
+        "purchaseDate": "2024-02-20T13:10:00.000Z",
+        "month": "2024-02"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "employeeId": "EMP002",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@company.com",
+    "password": "password123",
+    "secretPin": "5678",
+    "department": "Marketing",
+    "position": "Marketing Manager",
+    "phoneNumber": "+1-555-0124",
+    "hireDate": "2021-03-10",
+    "salary": 75000,
+    "isActive": true,
+    "manager": "Michael Brown",
+    "location": "Los Angeles, CA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 120.00,
+      "currentSpent": 67.25,
+      "lastUpdated": "2024-01-12",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 120.00, "spent": 67.25 },
+        { "month": "2023-12", "limit": 100.00, "spent": 78.90 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567004",
+        "productName": "Sparkling Water",
+        "category": "Beverages",
+        "price": 15.50,
+        "quantity": 1,
+        "unit": "case",
+        "purchaseDate": "2024-01-12T11:20:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1641234567005",
+        "productName": "Mixed Nuts",
+        "category": "Snacks",
+        "price": 18.75,
+        "quantity": 1,
+        "unit": "container",
+        "purchaseDate": "2024-01-09T14:30:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1707890123011",
+        "productName": "Greek Yogurt",
+        "category": "Dairy",
+        "price": 1.75,
+        "quantity": 6,
+        "unit": "cup",
+        "purchaseDate": "2024-02-03T08:45:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123012",
+        "productName": "Fresh Bananas",
+        "category": "Fruits",
+        "price": 2.50,
+        "quantity": 2,
+        "unit": "lbs",
+        "purchaseDate": "2024-02-07T10:30:00.000Z",
+        "month": "2024-02",
+        "vendorName": "Bob Martinez"
+      },
+      {
+        "id": "p1707890123013",
+        "productName": "Herbal Tea",
+        "category": "Beverages",
+        "price": 7.25,
+        "quantity": 1,
+        "unit": "box",
+        "purchaseDate": "2024-02-14T14:15:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123014",
+        "productName": "Dark Chocolate",
+        "category": "Snacks",
+        "price": 4.50,
+        "quantity": 2,
+        "unit": "bars",
+        "purchaseDate": "2024-02-18T15:30:00.000Z",
+        "month": "2024-02"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "employeeId": "EMP003",
+    "firstName": "Michael",
+    "lastName": "Brown",
+    "email": "michael.brown@company.com",
+    "password": "password123",
+    "secretPin": "9012",
+    "department": "Finance",
+    "position": "Financial Analyst",
+    "phoneNumber": "+1-555-0125",
+    "hireDate": "2020-07-20",
+    "salary": 70000,
+    "isActive": true,
+    "manager": "David Wilson",
+    "location": "Chicago, IL",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 100.00,
+      "currentSpent": 23.45,
+      "lastUpdated": "2024-01-08",
+      "budgetHistory": [
+        { "month": "2024-01", "limit": 100.00, "spent": 23.45 }
+      ]
+    },
+    "purchaseHistory": [
+      {
+        "id": "p1641234567006",
+        "productName": "Protein Bar",
+        "category": "Snacks",
+        "price": 11.95,
+        "quantity": 1,
+        "unit": "box",
+        "purchaseDate": "2024-01-08T09:15:00.000Z",
+        "month": "2024-01"
+      },
+      {
+        "id": "p1707890123015",
+        "productName": "Coffee Beans",
+        "category": "Beverages",
+        "price": 12.99,
+        "quantity": 1,
+        "unit": "bag",
+        "purchaseDate": "2024-02-01T07:30:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123016",
+        "productName": "Crackers",
+        "category": "Snacks",
+        "price": 3.75,
+        "quantity": 3,
+        "unit": "box",
+        "purchaseDate": "2024-02-09T12:15:00.000Z",
+        "month": "2024-02",
+        "vendorName": "Alice Henderson"
+      },
+      {
+        "id": "p1707890123017",
+        "productName": "Orange Juice",
+        "category": "Beverages",
+        "price": 4.25,
+        "quantity": 2,
+        "unit": "bottles",
+        "purchaseDate": "2024-02-16T15:45:00.000Z",
+        "month": "2024-02"
+      },
+      {
+        "id": "p1707890123018",
+        "productName": "Granola",
+        "category": "Breakfast",
+        "price": 6.50,
+        "quantity": 1,
+        "unit": "bag",
+        "purchaseDate": "2024-02-23T10:20:00.000Z",
+        "month": "2024-02"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "employeeId": "VND001",
+    "firstName": "Alice",
+    "lastName": "Henderson",
+    "email": "alice.vendor@company.com",
+    "password": "vendor123",
+    "secretPin": "0000",
+    "department": "Operations",
+    "position": "Senior Pantry Vendor & Nutrition Specialist",
+    "phoneNumber": "+1-555-0200",
+    "hireDate": "2023-05-01",
+    "salary": 52000,
+    "isActive": true,
+    "manager": "Operations Director",
+    "location": "New York, NY",
+    "userType": "vendor",
+    "vendorDetails": {
+      "specializations": ["Organic Foods", "Beverages", "Healthy Snacks", "Dairy Products"],
+      "certifications": ["Food Safety Manager", "Nutrition Specialist", "Inventory Management"],
+      "yearsExperience": 8,
+      "preferredSuppliers": ["Green Valley Farms", "Pure Spring Water Co.", "Healthy Choice Snacks"],
+      "languages": ["English", "Spanish"],
+      "workingHours": "Monday-Friday 7:00 AM - 4:00 PM",
+      "emergencyContact": "+1-555-0299"
+    },
+    "pantryBudget": {
+      "monthlyLimit": 0.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": [],
+    "vendorStats": {
+      "totalOrdersProcessed": 147,
+      "totalValueProcessed": 18540.75,
+      "averageOrderValue": 126.19,
+      "employeesServed": 35,
+      "customerSatisfactionRating": 4.8,
+      "lastMonthOrders": 23
+    },
+    "personalInfo": {
+      "bio": "Experienced pantry vendor with a passion for providing healthy, high-quality food options for corporate employees. Specializes in sourcing organic and locally-sourced products.",
+      "education": "Bachelor's Degree in Nutrition Science - Cornell University",
+      "previousExperience": "5 years at FreshCorp as Food Service Coordinator, 3 years at Healthy Eats Inc. as Procurement Specialist",
+      "hobbies": ["Organic gardening", "Nutrition research", "Cooking", "Hiking"]
+    }
+  },
+  {
+    "id": 5,
+    "employeeId": "VND002",
+    "firstName": "Bob",
+    "lastName": "Martinez",
+    "email": "bob.store@company.com",
+    "password": "vendor123",
+    "secretPin": "0001",
+    "department": "Operations",
+    "position": "Pantry Operations Manager",
+    "phoneNumber": "+1-555-0201",
+    "hireDate": "2023-03-15",
+    "salary": 48000,
+    "isActive": true,
+    "manager": "Operations Director",
+    "location": "Los Angeles, CA",
+    "userType": "vendor",
+    "vendorDetails": {
+      "specializations": ["Inventory Management", "Cost Optimization", "Vendor Relations", "Quality Control"],
+      "certifications": ["Supply Chain Management", "Food Service Operations"],
+      "yearsExperience": 6,
+      "preferredSuppliers": ["Metro Food Distributors", "West Coast Suppliers", "Budget Fresh"],
+      "languages": ["English", "Spanish", "Portuguese"],
+      "workingHours": "Monday-Friday 6:00 AM - 3:00 PM",
+      "emergencyContact": "+1-555-0255"
+    },
+    "pantryBudget": {
+      "monthlyLimit": 0.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": [],
+    "vendorStats": {
+      "totalOrdersProcessed": 89,
+      "totalValueProcessed": 12450.30,
+      "averageOrderValue": 139.89,
+      "employeesServed": 28,
+      "customerSatisfactionRating": 4.6,
+      "lastMonthOrders": 18
+    },
+    "personalInfo": {
+      "bio": "Operations-focused pantry manager with expertise in cost-effective procurement and inventory optimization. Ensures smooth daily operations and vendor relationships.",
+      "education": "Associate's Degree in Business Administration - UCLA Extension",
+      "previousExperience": "4 years at CorporateEats as Assistant Manager, 2 years at Office Pantry Solutions as Coordinator",
+      "hobbies": ["Soccer", "Photography", "Technology", "Travel"]
+    }
+  },
+  {
+    "id": 6,
+    "employeeId": "EMP004",
+    "firstName": "Emily",
+    "lastName": "Davis",
+    "email": "emily.davis@company.com",
+    "password": "password123",
+    "secretPin": "3456",
+    "department": "Human Resources",
+    "position": "HR Specialist",
+    "phoneNumber": "+1-555-0126",
+    "hireDate": "2021-09-01",
+    "salary": 65000,
+    "isActive": true,
+    "manager": "David Wilson",
+    "location": "Austin, TX",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 110.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 7,
+    "employeeId": "EMP005",
+    "firstName": "David",
+    "lastName": "Wilson",
+    "email": "david.wilson@company.com",
+    "password": "password123",
+    "secretPin": "7890",
+    "department": "Finance",
+    "position": "Finance Director",
+    "phoneNumber": "+1-555-0127",
+    "hireDate": "2019-02-15",
+    "salary": 95000,
+    "isActive": true,
+    "manager": "CEO",
+    "location": "New York, NY",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 200.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 8,
+    "employeeId": "EMP006",
+    "firstName": "Lisa",
+    "lastName": "Anderson",
+    "email": "lisa.anderson@company.com",
+    "password": "password123",
+    "secretPin": "2468",
+    "department": "Design",
+    "position": "UI/UX Designer",
+    "phoneNumber": "+1-555-0128",
+    "hireDate": "2022-06-01",
+    "salary": 72000,
+    "isActive": true,
+    "manager": "Sarah Johnson",
+    "location": "San Francisco, CA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 130.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 9,
+    "employeeId": "EMP007",
+    "firstName": "James",
+    "lastName": "Taylor",
+    "email": "james.taylor@company.com",
+    "password": "password123",
+    "secretPin": "1357",
+    "department": "Engineering",
+    "position": "DevOps Engineer",
+    "phoneNumber": "+1-555-0129",
+    "hireDate": "2021-11-15",
+    "salary": 80000,
+    "isActive": true,
+    "manager": "John Smith",
+    "location": "Seattle, WA",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 140.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  },
+  {
+    "id": 10,
+    "employeeId": "EMP008",
+    "firstName": "Amanda",
+    "lastName": "Martinez",
+    "email": "amanda.martinez@company.com",
+    "password": "password123",
+    "secretPin": "9753",
+    "department": "Sales",
+    "position": "Sales Representative",
+    "phoneNumber": "+1-555-0130",
+    "hireDate": "2023-01-10",
+    "salary": 55000,
+    "isActive": true,
+    "manager": "Michael Brown",
+    "location": "Miami, FL",
+    "userType": "employee",
+    "pantryBudget": {
+      "monthlyLimit": 90.00,
+      "currentSpent": 0.00,
+      "lastUpdated": "2024-01-01",
+      "budgetHistory": []
+    },
+    "purchaseHistory": []
+  }
+] 
