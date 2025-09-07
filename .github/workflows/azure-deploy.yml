@@ -24,17 +24,16 @@ jobs:
       with:
         node-version: ${{ env.NODE_VERSION }}
 
-    # Build Frontend
-    - name: 'Clean Frontend Dependencies'
-      run: |
-        cd frontend
-        rm -rf node_modules
-        rm -rf package-lock.json
+    - name: 'Login to Azure'
+      uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}
 
+    # Build Frontend
     - name: 'Install Frontend Dependencies'
       run: |
         cd frontend
-        npm install --no-optional --legacy-peer-deps
+        npm install --no-optional --no-audit --no-fund
 
     - name: 'Build Frontend'
       run: |
@@ -52,7 +51,6 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME_BACKEND }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_BACKEND }}
         package: './backend'
 
     # Deploy Frontend to Azure
@@ -60,5 +58,4 @@ jobs:
       uses: azure/webapps-deploy@v2
       with:
         app-name: ${{ env.AZURE_WEBAPP_NAME_FRONTEND }}
-        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE_FRONTEND }}
         package: './frontend/dist'
