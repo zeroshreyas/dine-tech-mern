@@ -1,0 +1,407 @@
+[
+  {
+    "name": "Chocolate Chip Cookies",
+    "category": "Snacks",
+    "price": 25,
+    "description": "Freshly baked chocolate chip cookies",
+    "isAvailable": true,
+    "stockQuantity": 50,
+    "nutritionalInfo": {
+      "calories": 150,
+      "protein": 2,
+      "carbs": 22,
+      "fat": 7
+    },
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Potato Chips",
+    "category": "Snacks",
+    "price": 15,
+    "description": "Crispy salted potato chips",
+    "isAvailable": true,
+    "stockQuantity": 75,
+    "nutritionalInfo": {
+      "calories": 160,
+      "protein": 2,
+      "carbs": 15,
+      "fat": 10
+    },
+    "allergens": []
+  },
+  {
+    "name": "Mixed Nuts",
+    "category": "Snacks",
+    "price": 35,
+    "description": "Healthy mixed nuts assortment",
+    "isAvailable": true,
+    "stockQuantity": 40,
+    "nutritionalInfo": {
+      "calories": 170,
+      "protein": 6,
+      "carbs": 6,
+      "fat": 15
+    },
+    "allergens": ["nuts"]
+  },
+  {
+    "name": "Granola Bar",
+    "category": "Snacks",
+    "price": 20,
+    "description": "Oats and honey granola bar",
+    "isAvailable": true,
+    "stockQuantity": 60,
+    "nutritionalInfo": {
+      "calories": 140,
+      "protein": 3,
+      "carbs": 25,
+      "fat": 4
+    },
+    "allergens": ["gluten", "nuts"]
+  },
+  {
+    "name": "Coffee",
+    "category": "Beverages",
+    "price": 30,
+    "description": "Fresh brewed coffee",
+    "isAvailable": true,
+    "stockQuantity": 100,
+    "nutritionalInfo": {
+      "calories": 5,
+      "protein": 0,
+      "carbs": 1,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Tea",
+    "category": "Beverages",
+    "price": 25,
+    "description": "Assorted tea varieties",
+    "isAvailable": true,
+    "stockQuantity": 80,
+    "nutritionalInfo": {
+      "calories": 2,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Orange Juice",
+    "category": "Beverages",
+    "price": 40,
+    "description": "Fresh orange juice",
+    "isAvailable": true,
+    "stockQuantity": 45,
+    "nutritionalInfo": {
+      "calories": 110,
+      "protein": 2,
+      "carbs": 26,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Mineral Water",
+    "category": "Beverages",
+    "price": 20,
+    "description": "Pure mineral water",
+    "isAvailable": true,
+    "stockQuantity": 120,
+    "nutritionalInfo": {
+      "calories": 0,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Green Tea",
+    "category": "Beverages",
+    "price": 30,
+    "description": "Organic green tea",
+    "isAvailable": true,
+    "stockQuantity": 35,
+    "nutritionalInfo": {
+      "calories": 2,
+      "protein": 0,
+      "carbs": 0,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Sandwich",
+    "category": "Meals",
+    "price": 80,
+    "description": "Club sandwich with fries",
+    "isAvailable": true,
+    "stockQuantity": 25,
+    "nutritionalInfo": {
+      "calories": 450,
+      "protein": 25,
+      "carbs": 45,
+      "fat": 20
+    },
+    "allergens": ["gluten", "dairy"]
+  },
+  {
+    "name": "Pasta",
+    "category": "Meals",
+    "price": 120,
+    "description": "Italian pasta with sauce",
+    "isAvailable": true,
+    "stockQuantity": 20,
+    "nutritionalInfo": {
+      "calories": 380,
+      "protein": 14,
+      "carbs": 75,
+      "fat": 2
+    },
+    "allergens": ["gluten"]
+  },
+  {
+    "name": "Salad Bowl",
+    "category": "Meals",
+    "price": 90,
+    "description": "Fresh mixed vegetable salad",
+    "isAvailable": true,
+    "stockQuantity": 30,
+    "nutritionalInfo": {
+      "calories": 180,
+      "protein": 8,
+      "carbs": 15,
+      "fat": 12
+    },
+    "allergens": []
+  },
+  {
+    "name": "Pizza Slice",
+    "category": "Meals",
+    "price": 70,
+    "description": "Cheese pizza slice",
+    "isAvailable": true,
+    "stockQuantity": 40,
+    "nutritionalInfo": {
+      "calories": 285,
+      "protein": 12,
+      "carbs": 36,
+      "fat": 10
+    },
+    "allergens": ["gluten", "dairy"]
+  },
+  {
+    "name": "Grilled Chicken Bowl",
+    "category": "Meals",
+    "price": 140,
+    "description": "Grilled chicken with rice and vegetables",
+    "isAvailable": true,
+    "stockQuantity": 15,
+    "nutritionalInfo": {
+      "calories": 420,
+      "protein": 35,
+      "carbs": 45,
+      "fat": 12
+    },
+    "allergens": []
+  },
+  {
+    "name": "Apple",
+    "category": "Fruits",
+    "price": 15,
+    "description": "Fresh red apple",
+    "isAvailable": true,
+    "stockQuantity": 80,
+    "nutritionalInfo": {
+      "calories": 95,
+      "protein": 0,
+      "carbs": 25,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Banana",
+    "category": "Fruits",
+    "price": 12,
+    "description": "Ripe yellow banana",
+    "isAvailable": true,
+    "stockQuantity": 90,
+    "nutritionalInfo": {
+      "calories": 105,
+      "protein": 1,
+      "carbs": 27,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Orange",
+    "category": "Fruits",
+    "price": 18,
+    "description": "Juicy orange",
+    "isAvailable": true,
+    "stockQuantity": 70,
+    "nutritionalInfo": {
+      "calories": 62,
+      "protein": 1,
+      "carbs": 15,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Mixed Berries",
+    "category": "Fruits",
+    "price": 45,
+    "description": "Fresh strawberries, blueberries, and raspberries",
+    "isAvailable": true,
+    "stockQuantity": 25,
+    "nutritionalInfo": {
+      "calories": 85,
+      "protein": 1,
+      "carbs": 21,
+      "fat": 0
+    },
+    "allergens": []
+  },
+  {
+    "name": "Avocado",
+    "category": "Fruits",
+    "price": 35,
+    "description": "Fresh ripe avocado",
+    "isAvailable": true,
+    "stockQuantity": 30,
+    "nutritionalInfo": {
+      "calories": 234,
+      "protein": 3,
+      "carbs": 12,
+      "fat": 21
+    },
+    "allergens": []
+  },
+  {
+    "name": "Yogurt",
+    "category": "Dairy",
+    "price": 35,
+    "description": "Greek yogurt cup",
+    "isAvailable": true,
+    "stockQuantity": 50,
+    "nutritionalInfo": {
+      "calories": 130,
+      "protein": 15,
+      "carbs": 9,
+      "fat": 5
+    },
+    "allergens": ["dairy"]
+  },
+  {
+    "name": "Milk",
+    "category": "Dairy",
+    "price": 25,
+    "description": "Fresh milk bottle",
+    "isAvailable": true,
+    "stockQuantity": 40,
+    "nutritionalInfo": {
+      "calories": 150,
+      "protein": 8,
+      "carbs": 12,
+      "fat": 8
+    },
+    "allergens": ["dairy"]
+  },
+  {
+    "name": "Cheese Sticks",
+    "category": "Dairy",
+    "price": 30,
+    "description": "Mozzarella cheese sticks",
+    "isAvailable": true,
+    "stockQuantity": 60,
+    "nutritionalInfo": {
+      "calories": 80,
+      "protein": 6,
+      "carbs": 1,
+      "fat": 6
+    },
+    "allergens": ["dairy"]
+  },
+  {
+    "name": "Cottage Cheese",
+    "category": "Dairy",
+    "price": 40,
+    "description": "Low-fat cottage cheese",
+    "isAvailable": true,
+    "stockQuantity": 35,
+    "nutritionalInfo": {
+      "calories": 180,
+      "protein": 25,
+      "carbs": 9,
+      "fat": 5
+    },
+    "allergens": ["dairy"]
+  },
+  {
+    "name": "Croissant",
+    "category": "Bakery",
+    "price": 45,
+    "description": "Buttery croissant",
+    "isAvailable": true,
+    "stockQuantity": 30,
+    "nutritionalInfo": {
+      "calories": 231,
+      "protein": 5,
+      "carbs": 26,
+      "fat": 12
+    },
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Muffin",
+    "category": "Bakery",
+    "price": 40,
+    "description": "Blueberry muffin",
+    "isAvailable": true,
+    "stockQuantity": 25,
+    "nutritionalInfo": {
+      "calories": 374,
+      "protein": 4,
+      "carbs": 55,
+      "fat": 16
+    },
+    "allergens": ["gluten", "dairy", "eggs"]
+  },
+  {
+    "name": "Whole Grain Bread",
+    "category": "Bakery",
+    "price": 50,
+    "description": "Healthy whole grain bread slice",
+    "isAvailable": true,
+    "stockQuantity": 40,
+    "nutritionalInfo": {
+      "calories": 80,
+      "protein": 4,
+      "carbs": 14,
+      "fat": 1
+    },
+    "allergens": ["gluten"]
+  },
+  {
+    "name": "Bagel",
+    "category": "Bakery",
+    "price": 35,
+    "description": "Fresh sesame bagel",
+    "isAvailable": true,
+    "stockQuantity": 45,
+    "nutritionalInfo": {
+      "calories": 245,
+      "protein": 10,
+      "carbs": 48,
+      "fat": 2
+    },
+    "allergens": ["gluten", "sesame"]
+  }
+] 
