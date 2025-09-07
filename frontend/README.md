@@ -4,7 +4,7 @@ To run in local
 # Clone the repository
 clone <repository-url>
 
-# Navigate to the project directory
+# Navigate to the project directory 
 cd Dine-Tech
 
 # Install dependencies
@@ -204,7 +204,7 @@ Dine-Tech/
 ```
 
 ## 🤝 Contributing
-
+## hello
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
