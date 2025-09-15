@@ -7,7 +7,7 @@ const { sendPasswordResetEmail } = require('../services/emailService');
 
 const router = express.Router();
 
-app.use((ret, res) => {
+router.use((ret, res) => {
   res.status(200).send("return getting")
 })
 
