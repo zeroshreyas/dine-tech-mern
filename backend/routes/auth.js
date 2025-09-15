@@ -7,10 +7,6 @@ const { sendPasswordResetEmail } = require('../services/emailService');
 
 const router = express.Router();
 
-router.use((ret, res) => {
-  res.status(200).send("return getting")
-})
-
 // @route   POST /api/auth/register
 // @desc    Register a new user
 // @access  Public
