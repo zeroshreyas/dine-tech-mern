@@ -183,7 +183,7 @@ function Menu() {
       
       // Convert employee ID to uppercase and search
       const searchId = employeeId.trim().toUpperCase()
-      const response = await fetch(`http://localhost:5000/api/users/search/${searchId}`)
+      const response = await fetch(`https://dine-tech-mern.onrender.com/api/users/search/${searchId}`)
       
       if (!response.ok) {
         throw new Error('Employee not found')
@@ -357,7 +357,7 @@ function Menu() {
       })
 
       // Make API call to create direct order
-      const response = await fetch('http://localhost:5000/api/orders/direct', {
+      const response = await fetch('https://dine-tech-mern.onrender.com/api/orders/direct', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -391,7 +391,7 @@ function Menu() {
       })
       
       // Refresh employee budget data to show updated spending
-      const updatedEmployee = await fetch(`http://localhost:5000/api/users/search/${budgetData.employeeId}`)
+      const updatedEmployee = await fetch(`https://dine-tech-mern.onrender.com/api/users/search/${budgetData.employeeId}`)
       if (updatedEmployee.ok) {
         const updatedData = await updatedEmployee.json()
         setBudgetData(updatedData)

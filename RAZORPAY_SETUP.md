@@ -57,7 +57,7 @@ Create `.env` file in `frontend/` directory:
 
 ```bash
 # API Configuration
-VITE_API_URL=http://localhost:5000/api
+VITE_API_URL=https://dine-tech-mern.onrender.com/api
 
 # Payment Configuration
 VITE_RAZORPAY_KEY_ID=rzp_test_your_key_id
