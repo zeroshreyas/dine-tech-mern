@@ -4,7 +4,7 @@
   "description": "Backend API for Dine Tech - Professional Workplace Food Order Management",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node backend/server.js",
     "dev": "nodemon server.js",
     "seed": "node scripts/seedData.js",
     "seed:full": "node scripts/seedDataFromFiles.js",
