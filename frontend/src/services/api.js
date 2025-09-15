@@ -1,4 +1,4 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const API_BASE_URL = 'https://dine-tech-mern.onrender.com/api' || 'http://localhost:5000/api';
 
 // Token management
 const getToken = () => localStorage.getItem('dine-tech-token');
